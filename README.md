@@ -51,6 +51,7 @@ Router/LuCI IP : 192.168.1.1
 LuCI Username  : root
 LuCI Password  : radenku.com
 ```
+By default, the WiFi is off, enable it through `Luci - Wireless` or with the command `wifi up`
 Credit for the OpenWrt Build: [radenku.com](https://radenku.com/firmware-rooter-goldenorb-stb-amlogic/)
 
 Don't flash OpenWrt Firmware on your bricked X96 Air right away! Flash the Android Firmware first then proceed to flash OpenWrt to your SD card
