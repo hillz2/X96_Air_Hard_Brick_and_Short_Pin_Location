@@ -12,6 +12,8 @@ I once hard bricked my X96 Air and I had to find the short pin location through 
 ## The short pin location is circled in red below
 ![enter image description here](https://i.ibb.co/q1spG7t/X96-Air-short-pin.jpg)
 
+[Full Size Image](https://ibb.co/WKyf9Gb)
+
 You can use a screwdriver or a tweezer to short them. 
 1. Tutorial on how to unbrick your device (In Indonesian) https://www.youtube.com/watch?v=15nl3m7GsWs (Don't use the firmware in that video to flash your X96 Air)
 2. The firmware that I used is [[v9] Aidan's Rom (X96 Max Plus A100) [S905X3] [ATV9].img](https://androidfilehost.com/?fid=2981970449027575443)
