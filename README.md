@@ -51,6 +51,11 @@ Router/LuCI IP : 192.168.1.1
 LuCI Username  : root
 LuCI Password  : radenku.com
 ```
+
+```
+BUG:
+1. LAN Port doesn't work
+```
 By default, the WiFi is off, enable it through `Luci - Network - Wireless` or with the command `wifi up`
 
 Credit for the OpenWrt Build: [radenku.com](https://radenku.com/firmware-rooter-goldenorb-stb-amlogic/)
