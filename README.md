@@ -61,3 +61,15 @@ By default, the WiFi is off, enable it through `Luci - Network - Wireless` or wi
 Credit for the OpenWrt Build: [radenku.com](https://radenku.com/firmware-rooter-goldenorb-stb-amlogic/)
 
 Don't flash OpenWrt Firmware on your bricked X96 Air right away! Flash the Android Firmware first then proceed to flash OpenWrt to your SD card
+
+# UPDATE 04 SEPTEMBER 2023:
+1. LAN port doesn't work, use a **USB to LAN** to connect to ethernet
+2. USB 3.0 port is buggy with openwrt
+3. You can use any openwrt firmware (I personally use HelmiWrt). I find that ROOter Openwrt Firmware is the only firmware that can enable the built-in 2.4Ghz wifi, other firmware only enable 5Ghz internal wifi
+4. To install OpenWrt to EMMC:
+   1. Make sure your device is installed with Android **NOT** OpenWrt
+   2. Burn the openwrt image to an SD card then boot from it.
+   3. Run `openwrt-install-amlogic`
+   4. Choose `505:X96-Max+_A100:s905x3: 4GB-Mem,32G-Rom,Wifi-AM7256,100Mb-Nic`
+   5. Choose to write mainline bootloader to EMMC
+   6. After it's done then remove the SD card and unplug the power cable.
